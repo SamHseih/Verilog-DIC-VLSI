@@ -10,6 +10,17 @@ All projects are written in **synthesizable Verilog HDL** and verified through *
 
 ## Lab List and Summaries
 
+### Area of a Trapezoid 
+**Topic:** Structural-level digital design using standard cells  
+**Goal:**  
+Implement a **gate-level Verilog circuit** that computes the area of a trapezoid using **only standard cells** (no behavioral constructs).  
+The design integrates three fundamental arithmetic blocks:
+1. **Adder** – computes $(a + b)$  
+2. **Unsigned Multiplier** – computes $(a + b) \times c$  
+3. **Shifter** – divides by 2 using a right shift
+4. 
+---
+
 ### Multi-Bank Filter (MBF)
 **Topic:** Digital signal processing – High-Pass and Low-Pass Filters  
 **Goal:**  
