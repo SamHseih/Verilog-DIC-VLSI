@@ -1,26 +1,24 @@
 # Verilog Project Collection (VLSI/DIC course)
 
 ## Overview
-This repository collects Verilog-based hardware design labs and projects from **CSIE DIC / VLSI Lab** courses.  
-Each lab focuses on a specific digital design concept, from combinational circuits to behavior-level synthesis and timing optimization.
-
-All projects are written in **synthesizable Verilog HDL** and verified through **RTL and gate-level simulations**.
+This repository collects Verilog-based hardware design labs and projects from **CSIE Digital IC Design (DIC)** and **VLSI Lab** courses.  
 
 ---
 
 ## Common Tools
-All labs use standard EDA tools and flow:
-- **Simulation:** `ncverilog`
-- **OS**:Linux  
-- **Waveform viewing:** `nWave`  
-- **RTL/Synthesis:** Cadence Genus
-- **APR & DRC/LVS:** Innovus、Calibre 
+- **OS**:Linux
+- **Waveform Viewer:** nWave
+- **Editor:** vim/gvim
+- **RTL Simulation:** Cadence NC-Verilog 
+- **Synthesis/Netlist Generation:** Cadence Genus
+- **APR:** Cadence Innovus
+- - **Verification(DRC、LVS、LPE):** Calibre  
 
 ---
 
 ## Lab List and Summaries
 
-### Area of a Trapezoid 
+### Area of a Trapezoid — Gate-Level Design
 **Topic:** Structural-level digital design using standard cells  
 **Goal:**  
 Implement a **gate-level Verilog circuit** that computes the area of a trapezoid using **only standard cells** (no behavioral constructs).  
@@ -31,7 +29,7 @@ The design integrates three fundamental arithmetic blocks:
 
 ---
 
-### Multi-Bank Filter (MBF)
+### Multi-Bank Filter (MBF) — RTL & Synthesis
 **Topic:** Digital signal processing – High-Pass and Low-Pass Filters  
 **Goal:**  
 Design a **Multi-Bank Filter** that processes input data through both HPF and LPF paths simultaneously.  
@@ -41,7 +39,7 @@ Design a **Multi-Bank Filter** that processes input data through both HPF and LP
 
 ---
 
-### Find Shortest Path in 5×5 Matrix
+### Find Shortest Path in 5×5 Matrix — RTL
 **Topic:** Behavioral-level algorithm implementation in Verilog  
 **Goal:**  
 Build a **GPS-like shortest path circuit** that finds the minimal path from **f(0,0)** to **f(4,4)**.  
@@ -52,7 +50,7 @@ Build a **GPS-like shortest path circuit** that finds the minimal path from **f(
 
 ---
 
-### Square Root Circuit
+### Square Root Circuit — RTL & Synthesis
 **Topic:** Behavioral logic synthesis – Fixed-point arithmetic  
 **Goal:**  
 Design a **square root circuit** that computes the √x of a 16-bit unsigned input.  
@@ -63,18 +61,17 @@ Design a **square root circuit** that computes the √x of a 16-bit unsigned inp
 
 ---
 
-### Intersection of Two Circles
+### Intersection of Two Circles — RTL & Synthesis
 **Topic:** Geometric computation in hardware  
 **Goal:**  
 Design a Verilog module `SET.v` to calculate the number of integer points within the intersection of two circles on an 8×8 grid.  
 - Input: Two circle centers and radii  
 - Output: Count of intersecting integer points  
-- Includes pipelined multiplier (`CW_mult_n_stage`, 3 stages)  
 - Requires low-power synthesis and timing ≤ 10 ns  
 
 ---
 
-### DIC Final Project – Floating-Point Multiplier
+### DIC Final Project – Floating-Point Multiplier — RTL, Synthesis, APR & Post-Layout
 **Topic:** IEEE 754 double-precision floating-point arithmetic  
 **Goal:**  
 Implement a **pipelined floating-point multiplier** compliant with IEEE 754 standard.  
