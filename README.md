@@ -1,4 +1,4 @@
-# CSIE VLSI / DIC Lab Projects 2023–2024
+# Verilog Project Collection (VLSI/DIC course)
 
 ## Overview
 This repository collects Verilog-based hardware design labs and projects from **CSIE DIC / VLSI Lab** courses.  
