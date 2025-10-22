@@ -28,7 +28,7 @@ where:
 
 ---
 
-## ⚙️ I/O Port Definition
+## I/O Port Definition
 
 | Signal | Direction | Width  | Description               |
 | :----- | :-------- | :----- | :------------------------ |
@@ -48,7 +48,7 @@ where:
 
 ---
 
-## 🧑Example Structural Snippet
+## Example Structural Snippet
 
 ```verilog
 module lab03b(a, b, c, out);
