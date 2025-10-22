@@ -8,6 +8,16 @@ All projects are written in **synthesizable Verilog HDL** and verified through *
 
 ---
 
+## Common Tools
+All labs use standard EDA tools and flow:
+- **Simulation:** `ncverilog`
+- **OS**:Linux  
+- **Waveform viewing:** `nWave`  
+- **RTL/Synthesis:** Cadence Genus
+- **APR & DRC/LVS:** Innovus、Calibre 
+
+---
+
 ## Lab List and Summaries
 
 ### Area of a Trapezoid 
@@ -74,12 +84,3 @@ Implement a **pipelined floating-point multiplier** compliant with IEEE 754 stan
 - Rounding mode: *Round to nearest*  
 - Evaluated through RTL, gate-level, APR, and DRC/LVS verification  
 
----
-
-## Common Tools
-All labs use standard EDA tools and flow:
-- **Simulation:** `ncverilog`
-- **OS**:Linux  
-- **Waveform viewing:** `nWave`  
-- **RTL/Synthesis:** Cadence Genus
-- **APR & DRC/LVS:** Innovus、Calibre 
