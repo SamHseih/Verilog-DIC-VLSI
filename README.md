@@ -18,7 +18,7 @@ The design integrates three fundamental arithmetic blocks:
 1. **Adder** – computes $(a + b)$  
 2. **Unsigned Multiplier** – computes $(a + b) \times c$  
 3. **Shifter** – divides by 2 using a right shift
-4. 
+
 ---
 
 ### Multi-Bank Filter (MBF)
